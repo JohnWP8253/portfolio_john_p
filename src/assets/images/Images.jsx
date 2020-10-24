@@ -1,1 +1,1 @@
-export const profilePic = require('./profile_jpg');
+export const profilePic = require('./images/profilepicjp.png');
