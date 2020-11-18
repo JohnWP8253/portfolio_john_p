@@ -1,12 +1,16 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Logo from '../../assets/icons/'
 
 export const MyNavbar = () => {
   return (
     <>
       <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
-        <Navbar.Brand href='#home'>React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href='#home'>
+          <img src=
+          John Pendergrass
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
