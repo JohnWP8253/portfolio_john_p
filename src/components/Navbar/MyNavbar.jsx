@@ -11,13 +11,12 @@ export const MyNavbar = () => {
         // fixed='top'
         collapseOnSelect
         expand='md'
-        bg='dark'
+        // bg='dark'
         variant='dark'
         className='animate-navbar nav-theme justify-content-between'
       >
         <Navbar.Brand href='#home'>
           <img className='logo' src={Logo} alt='My Portfolio Logo' />
-          John Pendergrass
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
