@@ -32,6 +32,7 @@ const MyCarousel = () => {
           />
         </Carousel.Item>
       </Carousel>
+      <div className="overlay"></div>
       <ScrollDown />
     </div>
   );
