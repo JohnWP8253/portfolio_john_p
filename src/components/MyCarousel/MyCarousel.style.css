@@ -3,7 +3,7 @@
     object-fit: contain;
 }
 
-.d-block {
+#home {
     position: absolute;
     top: 0;
     bottom: 0;

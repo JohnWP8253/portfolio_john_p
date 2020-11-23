@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/images/IMG_0261.jpeg";
-import Slide2 from "../../assets/images/IMG_0620.jpg";
+import Slide2 from "../../assets/images/IMG_0620 (1).jpeg";
 import Slide3 from "../../assets/images/IMG_1613.jpeg";
 import ScrollDown from "../Scroll-down/scrollDown.component";
 
