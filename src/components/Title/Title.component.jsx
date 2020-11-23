@@ -21,8 +21,10 @@ const TitleMessage = styled.h1`
       font-size: 50px;
     }
     .sub {
+        color: ${(props) => props.theme.subColor}!important;
       font-size: 27px;
       letter-spacing: 2px;
+      font-weight: 800;
     }
   }
 `;
@@ -39,8 +41,8 @@ const Title = () => {
               <strong>John Pendergrass</strong>
             </span>
           </div>
-          <div className="sub">
               {/* Typewriter effect section */}
+          <div className="sub">
             <Typewriter
               options={{
                 strings: ["Web Developer", "Teacher", "Instructional Designer", "Bulldog lover"],
