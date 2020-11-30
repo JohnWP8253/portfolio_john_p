@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import { Parallax } from "react-parallax";
+import { Parallax, Background } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Container from "react-bootstrap/Container";
+import Image from "./assets/images/parallax/25101.webp";
 
 // components
 import MyNavbar from "./components/Navbar/MyNavbar";
@@ -20,7 +21,7 @@ const App = () => {
       <div>
       <Parallax
         blur={{ min: -30, max: 30 }}
-        bgImage={require("./assets/images")}
+        bgImage={Image}
         bgImageAlt=""
         strength={-200}
       >
