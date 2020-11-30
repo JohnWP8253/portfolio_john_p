@@ -5,9 +5,9 @@ import styled from "styled-components";
 const TitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 25rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -200px;
   text-align: center;
   strong {
     font-size: 1.25em;
