@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Parallax} from "react-parallax";
+import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Container from "react-bootstrap/Container";
 import Image from "./assets/images/parallax/25101.webp";
@@ -20,22 +20,26 @@ const App = () => {
       <Title />
       {/* about me section */}
       <div>
-      <Parallax
-        blur={{ min: -15, max: 15 }}
-        bgImage={Image}
-        bgImageAlt=""
-        strength={-200}
-      >
-        <div>
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <About />
-            </Fade>
-          </Container>
-        </div>
-      </Parallax>
+        <Parallax
+          blur={{ min: -15, max: 15 }}
+          bgImage={Image}
+          bgImageAlt=""
+          strength={-200}
+        >
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <About />
+              </Fade>
+            </Container>
+          </div>
+        </Parallax>
       </div>
-      <Skills />
+      <div>
+        <Container className="container-box rounded">
+            <Skills />
+        </Container>
+      </div>
     </div>
   );
 };
