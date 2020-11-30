@@ -10,6 +10,7 @@ import MyNavbar from "./components/Navbar/MyNavbar";
 import MyCarousel from "./components/MyCarousel/MyCarousel.component";
 import Title from "./components/Title/Title.component";
 import About from "./pages/About/About.component.jsx";
+import Skills from "./pages/Skills/Skills.component.jsx";
 
 const App = () => {
   return (
@@ -34,7 +35,7 @@ const App = () => {
         </div>
       </Parallax>
       </div>
-      My portfolio
+      <Skills />
     </div>
   );
 };
