@@ -17,18 +17,22 @@ const App = () => {
       <MyCarousel />
       <Title />
       {/* about me section */}
-      <Parallax blur={{ min: -15, max: 15 }}
-        bgImage={require('./assets/images/25101.jpg')}
-        bgImageAlt="279"
-        strength={-200}>
       <div>
-        <Container className="container-box rounded">
-          <Fade duration={500}>
-        <About />
-        </Fade>
-        </Container>
-      </div>
+      <Parallax
+        blur={{ min: -30, max: 30 }}
+        bgImage={require("./assets/images")}
+        bgImageAlt=""
+        strength={-200}
+      >
+        <div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <About />
+            </Fade>
+          </Container>
+        </div>
       </Parallax>
+      </div>
       My portfolio
     </div>
   );
