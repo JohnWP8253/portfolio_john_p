@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 className="text-center font-details-b pb-4">
-        <i class="fas fa-project-diagram fa-fw"></i> TECH SKILLS
+      <i class="fas fa-code-branch fa-fw"></i> TECH SKILLS
       </h1>
 
       <CardDeck>
