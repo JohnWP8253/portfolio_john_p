@@ -1,0 +1,16 @@
+.img-resize {
+    width: 10em;
+  }
+  
+  .style {
+    font-size: 20px;
+  }
+  
+  .jumbo-style {
+    background-image: linear-gradient(to top, #061161, #780206);;
+  }
+  
+  .body-title-style {
+    font-size: 25px;
+    font-weight: 800;
+  }

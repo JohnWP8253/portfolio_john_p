@@ -11,6 +11,7 @@ import MyCarousel from "./components/MyCarousel/MyCarousel.component";
 import Title from "./components/Title/Title.component";
 import About from "./pages/About/About.component.jsx";
 import Skills from "./pages/Skills/Skills.component.jsx";
+import Experience from './pages/Experience/Experience.component.jsx';
 
 const App = () => {
   return (
@@ -38,6 +39,13 @@ const App = () => {
       <div>
         <Container className="container-box rounded">
             <Skills />
+        </Container>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={400}>
+            <Experience />
+          </Fade>
         </Container>
       </div>
     </div>
