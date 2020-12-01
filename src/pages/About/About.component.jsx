@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+        <h1 className="pt-3 text-center font-details pb-3"><i class="fas fa-comment-dots fa-fw"></i> About Me</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             {/* Profile Picture */}

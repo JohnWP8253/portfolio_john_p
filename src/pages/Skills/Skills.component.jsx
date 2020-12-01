@@ -11,15 +11,18 @@ import "./Skills.styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      <h1 className="text-center font-details-b pb-4">
+        <i class="fas fa-project-diagram fa-fw"></i> TECH SKILLS
+      </h1>
+
       <CardDeck>
         <Row className="d-flex justify-content-around">
+          {/* ******************* */}
+          {/* Frontend */}
+          {/* ******************* */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                {/* ******************* */}
-                {/* Frontend */}
-                {/* ******************* */}
                 <Card.Title className="text-center  card-title">
                   Frontend
                 </Card.Title>
