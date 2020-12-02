@@ -13,6 +13,7 @@ import Title from "./components/Title/Title.component";
 import About from "./pages/About/About.component.jsx";
 import Skills from "./pages/Skills/Skills.component.jsx";
 import Experience from "./pages/Experience/Experience.component.jsx";
+import Projects from "./components/Projects/Projects-component.jsx";
 
 const App = () => {
   return (
@@ -48,7 +49,10 @@ const App = () => {
 
       <div>
         <Container className="container-box rounded">
+            <Slide bottom duration={500}>
+            <hr />
             <Skills />
+            </Slide>
         </Container>
       </div>
 
@@ -58,8 +62,21 @@ const App = () => {
 
       <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={500}>
+          {/* <Fade duration={500}> */}
+          {/* <hr /> */}
             <Experience />
+          {/* </Fade> */}
+        </Container>
+      </div>
+
+      {/* ********************** */}
+      {/* Projects section */}
+      {/* ********************** */}
+
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <Projects />
           </Slide>
         </Container>
       </div>

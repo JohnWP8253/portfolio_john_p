@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 className="text-center font-details-b pb-4">
-        <i class="fas fa-project-diagram fa-fw"></i> TECH SKILLS
+        <i class="fas fa-code-branch fa-fw"></i> TECH SKILLS
       </h1>
 
       <CardDeck>
@@ -23,7 +23,7 @@ const Skills = () => {
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">
+                <Card.Title className="text-center card-title">
                   Frontend
                 </Card.Title>
                 <hr />
@@ -114,10 +114,10 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={4}>
           {/* ******************* */}
           {/* Programming languages*/}
           {/* ******************* */}
-          <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">

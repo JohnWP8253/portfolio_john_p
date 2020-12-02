@@ -1,5 +1,5 @@
 import L_HTML from "../../assets/images/skills/html-5.svg";
-import L_CSS3 from "../../assets/images/skills/css3.svg";
+import L_CSS3 from "../../assets/images/skills/CSS3_logo.svg";
 import L_EXPRESS from "../../assets/images/skills/express.svg";
 import L_BOOTSTRAP from "../../assets/images/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/images/skills/react.svg";
@@ -14,6 +14,7 @@ import L_GIT from "../../assets/images/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/images/skills/github.svg";
 import L_REDUX from "../../assets/images/skills/redux.svg";
 import L_STYLED_COMPONENTS from "../../assets/images/skills/styled-components.svg";
+import L_JQUERY from "../../assets/images/skills/jquery.svg";
 
 export const skills = {
   // Frontend objects
@@ -36,6 +37,12 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://jquery.com/",
+      imgAltText: "jQuery",
+      imgSrc: L_JQUERY,
+      skillName: "jQuery",
     },
     {
       link: "https://getbootstrap.com/",
