@@ -14,6 +14,7 @@ import About from "./pages/About/About.component.jsx";
 import Skills from "./pages/Skills/Skills.component.jsx";
 import Experience from "./pages/Experience/Experience.component.jsx";
 import Projects from "./components/Projects/Projects-component.jsx";
+import Contact from "./pages/Contact/Contact.component.jsx";
 
 const App = () => {
   return (
@@ -62,10 +63,10 @@ const App = () => {
 
       <div>
         <Container className="container-box rounded">
-          {/* <Fade duration={500}> */}
-          {/* <hr /> */}
+          <Fade duration={500}>
+          <hr />
             <Experience />
-          {/* </Fade> */}
+          </Fade>
         </Container>
       </div>
 
@@ -76,7 +77,16 @@ const App = () => {
       <div>
         <Container className="container-box rounded">
           <Slide bottom duration={500}>
+          <hr />
             <Projects />
+          </Slide>
+        </Container>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+          <hr />
+            <Contact />
           </Slide>
         </Container>
       </div>

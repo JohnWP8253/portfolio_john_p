@@ -5,8 +5,7 @@ import {
   UrlButton,
   ImageEvent,
   createTheme,
-  themes,
-  YouTubeEvent,
+  themes
 } from "@merc/react-timeline";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -484,7 +483,7 @@ const Projects = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Handlebars
+                              React
                             </span>
                           </li>
                           <li>
@@ -495,7 +494,18 @@ const Projects = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Node.js
+                              React-Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Redux
                             </span>
                           </li>
                           <li>
@@ -517,7 +527,7 @@ const Projects = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              MySQL
+                              MongoDB
                             </span>
                           </li>
                           <li>
@@ -528,7 +538,7 @@ const Projects = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              MySQL
+                              Heroku
                             </span>
                           </li>
                         </ul>
