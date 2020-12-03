@@ -50,10 +50,10 @@ const App = () => {
 
       <div>
         <Container className="container-box rounded">
-            <Slide bottom duration={500}>
+            {/* <Slide bottom duration={500}> */}
             <hr />
             <Skills />
-            </Slide>
+            {/* </Slide> */}
         </Container>
       </div>
 
