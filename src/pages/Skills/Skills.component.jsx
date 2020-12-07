@@ -1,8 +1,6 @@
 import React from "react";
-import CardDeck from "react-bootstrap/CardDeck";
+import CardColumns from "react-bootstrap/CardColumns"
 import Card from "react-bootstrap/Card";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import { skills } from "./Skills-data";
@@ -15,13 +13,15 @@ const Skills = () => {
         <i class="fas fa-code-branch fa-fw"></i> TECH SKILLS
       </h1>
 
-      <CardDeck>
-        <Row className="d-flex justify-content-around">
+      <CardColumns>
+        {/* <Row className="d-flex justify-content-center"> */}
           {/* ******************* */}
           {/* Frontend */}
           {/* ******************* */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+          {/* Column 1 */}
+          {/* ******************* */}
+          {/* <Col xs={6} md={4}> */}
+            <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center card-title">
                   Frontend
@@ -49,12 +49,14 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          {/* </Col> */}
           {/* ******************* */}
           {/* Backend */}
           {/* ******************* */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+          {/* Column 2 */}
+          {/* ******************* */}
+          {/* <Col xs={6} md={4}> */}
+            <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Backend
@@ -85,7 +87,7 @@ const Skills = () => {
             {/* ******************* */}
             {/* Hosting Platforms */}
             {/* ******************* */}
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Hosting Platforms
@@ -113,12 +115,7 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col md={4}>
-          {/* ******************* */}
-          {/* Programming languages*/}
-          {/* ******************* */}
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Programming Languages
@@ -146,10 +143,17 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+          {/* </Col> */}
+          {/* ******************* */}
+          {/* Programming languages*/}
+          {/* ******************* */}
+          {/* Column 3 */}
+          {/* ******************* */}
+          {/* <Col xs={6} md={4}> */}
             {/* ******************* */}
             {/* Databases*/}
             {/* ******************* */}
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Databases
@@ -180,10 +184,10 @@ const Skills = () => {
             {/* ******************* */}
             {/* Version Control */}
             {/* ******************* */}
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus focus mt-2 mb-2" style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title className="text-center  card-title">
-                  Databases
+                  Version Control
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -206,9 +210,9 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-        </Row>
-      </CardDeck>
+          {/* </Col> */}
+        {/* </Row> */}
+      </CardColumns>
     </div>
   );
 };
