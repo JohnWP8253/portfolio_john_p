@@ -13,7 +13,7 @@ const Skills = () => {
         <i class="fas fa-code-branch fa-fw"></i> TECH SKILLS
       </h1>
 
-      <CardColumns>
+      <CardColumns className="absolute-center">
         {/* ******** */}
         {/* Frontend */}
         {/* ******** */}
@@ -146,7 +146,7 @@ const Skills = () => {
         {/* Databases*/}
         {/* ******** */}
 
-        <Card className="focus focus mt-2 mb-2" style={{ width: "18rem" }}>
+        <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title className="text-center  card-title">
               Databases
@@ -179,7 +179,7 @@ const Skills = () => {
         {/* Version Control */}
         {/* *************** */}
 
-        <Card className="focus focus mt-2 mb-2" style={{ width: "18rem" }}>
+        <Card className="focus mt-2 mb-2" style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title className="text-center  card-title">
               Version Control
